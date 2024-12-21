@@ -308,7 +308,6 @@ def start_comparison():
                 max_distance = np.sqrt(2) * len(ideal_keypoints[0])  # Максимальное расстояние для нормализации
                 avg_similarity = 100 * (1 - np.mean(similarity_scores) / max_distance)
                 similarity = round(avg_similarity,0)
-                messagebox.showinfo("penis", avg_similarity )
                 if similarity < 70:
                     messagebox.showerror("Результат", f"Малое сходство. Возможные причины: \n 1. Вы неправильно выполняете упражнение \n 2. Неправильное позиционирование камеры \n 3. Неправильный темп выполнения упражнения")
                 elif similarity > 70 and similarity < 95:
