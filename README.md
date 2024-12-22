@@ -65,7 +65,10 @@
    ```bash
    python coach.py
    ```
-
+## **Установка при помощи инсталлятора**
+1. Перейдите по ссылке:
+https://drive.google.com/drive/folders/16th1c4BjhKwULtjaMo48WazUbpgWmO3X
+2. Откройте .exe файл и установите ПО
 ---
 
 ## **Использование**
